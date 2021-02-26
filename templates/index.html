@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my-elearning school</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->  
+   <!--  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/icons/favicon.ico') }}"/> -->
+
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<!--===============================================================================================-->
+</head>
+<body>
+    
+
+    <div class="limiter" >
+        <div class="container-login100">
+          <!--   <h1 style="margin-top:12px; padding-bottom: 10px; background-color: #55fcfc; border-radius: 16px; padding: 12px; border: 5px solid #fff;">HERE COMES OUR FIRSTINGS HEADING WELCOME</h1> -->
+            <div class="wrap-login100">
+
+                <div class="login100-pic js-tilt" data-tilt>
+                    <img src="{{ url_for('static', filename='images/img01x1.png')}}" alt="IMG">
+                </div>
+
+                <div class="login100-form">
+
+                    <div class="container-free-section-btn">
+                        <button class="free-section-btn" onclick="window.location.href = 'http://127.0.0.1:5000/freeContent';">
+                            Free section
+                        </button>
+                    </div>
+
+                    <div class="container-download-app-btn">
+                        <button class="download-app-btn" onclick="window.location.href = 'http://127.0.0.1:5000/downloadPage';">
+                            Download app
+                        </button>
+                    </div>
+
+
+                    <div class="container-home-content">
+                        <p class="home-content">Try our free app for more. 
+                        For complete access check out our latest app. !!Be amazed by the best looking bootstrap landing page on the web! Your new app deserves an amazing page to show all of its features. Clear visual, light colours and beautifully aligned elements - they all try to make the users aware of your great app features!</p>
+                   </div>
+                </div>
+                
+            </div>
+            
+            <div class="contact-details">
+                
+                <footer class="footer-distributed">
+
+                    <div class="footer-left">
+                        <h3>About <span>my-elearning</span></h3>
+
+                        <p class="footer-links">
+                           <!--  <a href="#">Home</a>
+                            |
+                            <a href="#">Blog</a>
+                            |
+                            <a href="#">About</a>
+                            |
+                            <a href="#">Contact</a> -->
+                        </p>
+
+                        <p class="footer-company-name">© 2021 My E-Learning School</p>
+                    </div>
+
+                    <div class="footer-center">
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p>Gwalior, India - 474011</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+91 22-27782183</p>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p><a href="#">myelearning@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <p class="footer-company-about">
+                            <span>About the company</span>
+                            We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+
+    <script src="{{ url_for('static', filename='vendor/tilt/tilt.jquery.min.js')}}"></script>
+
+    <script >
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+
+<!-- 
+    <script src="{{ url_for('static', filename='js/main.js')}}"></script> --> 
+
+</body>
+</html>
