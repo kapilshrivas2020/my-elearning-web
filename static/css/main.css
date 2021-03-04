@@ -229,7 +229,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   padding: 12px;
-  width: 100%;
+  width: 80%;
 }
 
 .login100mob-pic img {
@@ -415,6 +415,12 @@ iframe {
   .login100-form {
     width: 100%;
   }
+}
+
+@media (min-width:576px) {
+	.login100mob {
+	     display:none;
+	}
 }
 
 @media (max-width: 576px) {
