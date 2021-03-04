@@ -22,6 +22,11 @@
                 <div class="login100-pic js-tilt" data-tilt>
                     <img src="{{ url_for('static', filename='images/img01x1.png')}}" alt="IMG">
                 </div>
+                
+                <picture class="login100mob-pic">
+                  <source srcset="{{ url_for('static', filename='images/mobile_img.png')}}" media="(max-width: 600px)">
+                  <img src="{{ url_for('static', filename='images/mobile_img.png')}}" alt="company logo">
+                </picture>
 
                 <div class="login100-form">
 
