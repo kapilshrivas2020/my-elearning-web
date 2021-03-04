@@ -225,6 +225,19 @@ iframe {
   max-width: 100%;
 }
 
+.login100mob-pic {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  width: 100%;
+}
+
+.login100mob-pic img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
 
 /*------------------------------------------------------------------
 [  ]*/
@@ -373,6 +386,12 @@ iframe {
 
   .login100-form {
     width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .login100mob-pic {
+    display:none;
   }
 }
 
