@@ -199,7 +199,7 @@ iframe {
 }
 
 .contact-details {
-  margin-top:36px;
+  margin-top:24px;
   width: 960px;
   background: #fff;
   border-radius: 10px;
@@ -229,7 +229,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   padding: 12px;
-  width: 80%;
+  width: 100%;
 }
 
 .login100mob-pic img {
@@ -237,7 +237,6 @@ iframe {
   margin-right: auto;
   max-width: 100%;
 }
-
 
 /*------------------------------------------------------------------
 [  ]*/
@@ -384,9 +383,6 @@ iframe {
     width: 35%;
   }
 
-  .login100-form {
-    width: 50%;
-  }
 }
 
 @media (min-width: 768px) {
@@ -405,11 +401,11 @@ iframe {
   }
 
   .contact-details {
-    padding: 100px 80px 33px 80px;
+    padding: 24px 80px 33px 80px;
   }
 
   .login100-pic {
-    display: none;
+    display:none;
   }
 
   .login100-form {
@@ -427,7 +423,7 @@ iframe {
   }
 
   .contact-details {
-    padding: 100px 15px 33px 15px;
+    padding: 0px 15px 33px 15px;
   }
 }
 
@@ -454,7 +450,7 @@ footer{
   text-align: left;
   font: bold 16px sans-serif;
   padding: 50px 50px 60px 50px;
-  margin-top: 80px;
+  margin-top: 24px;
 }
 
 .footer-distributed .footer-left,
