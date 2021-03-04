@@ -417,12 +417,6 @@ iframe {
   }
 }
 
-@media (min-width:576px) {
-	.login100mob {
-	     display:none;
-	}
-}
-
 @media (max-width: 576px) {
   .wrap-login100 {
     padding: 10px 15px 33px 15px;
